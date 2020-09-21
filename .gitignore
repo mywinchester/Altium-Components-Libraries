@@ -1,3 +1,10 @@
-# exclude everything except .IntLib files
-/*
-!*.IntLib
+*/
+
+# Don't ignore .gitignore file
+!.gitignore
+
+# Don't ignore README.md
+!README.md
+
+!/*
+!/**/*.IntLib
